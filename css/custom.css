@@ -1,17 +1,23 @@
 
-/** ADD YOUR AWESOME CODES HERE **/
+/** START OF ABOUT PAGE **/
 #about_page {
-    background-color: rgb(83, 80, 80);
+    background-color: rgb(71, 36, 12);
+}
+.about_page_header{ 
+    color:black;
 }
 
-/** PORTFOLIO PAGE **/
+.about_descptn{
+    color: whitesmoke;
+}
+#about_description{
+    color: whitesmoke;
+}
+/** END OF ABOUT PAGE **/
+
+/** START OF PORTFOLIO PAGE **/
 .site-main .project-area {
     padding: 4rem 0;
-}
-.site-main .project-area.button-group button{
-    background:transparent;
-    border:none;
-    font:normal 500 16px/130px; 
 }
 
 #project-h1 {
@@ -23,4 +29,5 @@
     text-align: center;
     font-weight:bolder; 
 }
+/* END OF PORTFOLIO PAGE */
 
