@@ -181,17 +181,16 @@ Hero Slider - by CodyHouse.co
 .cd-hero__slide:first-of-type {
   background-color: #130101;
   background: linear-gradient(to right,rgb(15, 14, 14), rgb(20, 19, 19) );
-  /* background-image: url(../uploads/slider-01.jpg); */
 }
 
 .cd-hero__slide:nth-of-type(2) {
   background-color: #44403e;
-  background-image: url(../uploads/slider-02.jpg);
+  background-image: url(../uploads/Slide_2.jpg);
 }
 
 .cd-hero__slide:nth-of-type(3) {
   background-color: #44403e;
-  background-image: url(../uploads/slider-03.jpg);
+  background-image: url(../uploads/Slide_3.jpg);
 }
 
 
@@ -503,18 +502,6 @@ Hero Slider - by CodyHouse.co
   -webkit-transform: translateX(200%);
       -ms-transform: translateX(200%);
           transform: translateX(200%);
-}
-
-.cd-hero__marker.cd-hero__marker--item-4 {
-  -webkit-transform: translateX(300%);
-      -ms-transform: translateX(300%);
-          transform: translateX(300%);
-}
-
-.cd-hero__marker.cd-hero__marker--item-5 {
-  -webkit-transform: translateX(400%);
-      -ms-transform: translateX(400%);
-          transform: translateX(400%);
 }
 
 .cd-hero__nav ul::after {

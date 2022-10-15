@@ -16,6 +16,10 @@
 /** END OF ABOUT PAGE **/
 
 /** START OF PORTFOLIO PAGE **/
+.portfolio_page{
+    background-color: rgb(71, 36, 12);
+}
+
 .site-main .project-area {
     padding: 4rem 0;
 }
@@ -23,11 +27,28 @@
 #project-h1 {
     text-align: center;
     font-weight:bolder; 
+    color: whitesmoke;
+    
 }
 
 #project-h1-2 {
     text-align: center;
-    font-weight:bolder; 
+    font-weight:bolder;
+
+}
+
+h4{
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .our-project{width:auto;}
+    .img_3{width:50%;}
+}
+
+.our-project img:hover{
+    opacity: 0.7;
 }
 /* END OF PORTFOLIO PAGE */
 
